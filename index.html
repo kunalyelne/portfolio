@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Yelne | Senior Software Engineer</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Senior Software Engineer with 6+ years building mobile and backend systems. Expertise in Swift, Kotlin, Go, and cloud technologies. Built systems serving 1M+ devices.">
+    <meta name="keywords"
+        content="Senior Software Engineer, iOS Developer, Android Developer, Go Developer, Mobile Development, Backend Systems, Cloud Infrastructure">
+    <meta name="author" content="Kunal Yelne">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kunal Yelne | Senior Software Engineer">
+    <meta property="og:description"
+        content="Building elegant software that scales. 6+ years of experience in mobile and backend systems.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kunalyelne.github.io/portfolio">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Caveat:wght@400;600;700&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <a href="#" class="nav-logo">Kunal Yelne</a>
+        <div class="nav-links">
+            <a href="#work" class="nav-link">
+                <i class="ph ph-briefcase nav-icon"></i>
+                <span>Work</span>
+            </a>
+            <a href="#about-skills" class="nav-link">
+                <i class="ph ph-user nav-icon"></i>
+                <span>About</span>
+            </a>
+            <a href="#projects" class="nav-link">
+                <i class="ph ph-folder-open nav-icon"></i>
+                <span>Projects</span>
+            </a>
+            <a href="mailto:kunal.s.yelne@gmail.com" class="nav-cta">
+                <i class="ph ph-envelope"></i>
+                Say Hi
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Bento Grid -->
+    <section id="hero" class="hero-section">
+        <div class="bento-grid">
+            <!-- Column 1: Title (row 1) -->
+            <div class="bento-card bento-title">
+                <div class="title-corner-icon">
+                    <i class="ph ph-rocket-launch"></i>
+                </div>
+                <h1>Engineer,<br>Builder,<br><span class="accent">Problem Solver</span></h1>
+            </div>
+
+            <!-- Column 2: Photo (row 1) -->
+            <div class="bento-card bento-photo">
+                <!-- <div class="photo-placeholder">
+                    <i class="ph ph-user"></i>
+                </div> -->
+                <img src="assets/profile.jpg" alt="Kunal Yelne" class="profile-photo">
+            </div>
+
+            <!-- Column 3: Watch List (rows 1-2) -->
+            <div class="bento-card bento-list">
+                <span class="list-label">Watch, Read, Ponder</span>
+                <div class="list-scroll">
+                    <a href="https://tv.apple.com/in/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx" target="_blank"
+                        class="list-item">
+                        <i class="ph ph-monitor-play"></i>
+                        <div class="list-item-content">
+                            <span class="item-title">Severance</span>
+                            <span class="item-sub">Apple TV</span>
+                        </div>
+                    </a>
+                    <a href="https://tv.apple.com/in/movie/the-social-network/umc.cmc.36jj4rzu3eh9jk7uhicvr4vhb"
+                        target="_blank" class="list-item">
+                        <i class="ph ph-film-slate"></i>
+                        <div class="list-item-content">
+                            <span class="item-title">The Social Network</span>
+                            <span class="item-sub">Movie</span>
+                        </div>
+                    </a>
+                    <a href="https://blog.bytebytego.com/api/v1/file/d0601f5c-3308-430c-90d9-7f1c723b6ddd.pdf"
+                        target="_blank" class="list-item">
+                        <i class="ph ph-book-open"></i>
+                        <div class="list-item-content">
+                            <span class="item-title">System Design Interview</span>
+                            <span class="item-sub">Alex Xu</span>
+                        </div>
+                    </a>
+                    <a href="https://lexfridman.com/podcast/" target="_blank" class="list-item">
+                        <i class="ph ph-microphone-stage"></i>
+                        <div class="list-item-content">
+                            <span class="item-title">Lex Fridman Podcast</span>
+                            <span class="item-sub">Tech & Philosophy</span>
+                        </div>
+                    </a>
+                    <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank" class="list-item">
+                        <i class="ph ph-game-controller"></i>
+                        <div class="list-item-content">
+                            <span class="item-title">Elden Ring</span>
+                            <span class="item-sub">Video Game</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Column 1: Bio (rows 2-4) -->
+            <div class="bento-card bento-bio">
+                <p class="bio-text">
+                    Hey! I'm <strong class="name-highlight">Kunal</strong> , a Senior Software Engineer based in
+                    Bangalore, India.
+                    I blend Mobile development and Backend engineering to craft impactful digital products.
+                    I love building 0 → 1 products for dynamic startups.
+                </p>
+            </div>
+
+            <!-- Column 2: Previous (row 2) -->
+            <div class="bento-card bento-previous">
+                <div class="currently-icon previous-icon">
+                    <i class="ph-fill ph-briefcase"></i>
+                </div>
+                <div class="currently-content">
+                    <span class="currently-label">Previously at</span>
+                    <p class="currently-text">Esper • 4+ years</p>
+                </div>
+            </div>
+
+            <!-- Column 2: Row 3 Stack (Currently + Say Hi) -->
+            <div class="bento-row3-stack">
+                <div class="bento-card bento-currently">
+                    <div class="currently-icon">
+                        <i class="ph-fill ph-lightning"></i>
+                    </div>
+                    <div class="currently-content">
+                        <span class="currently-label">Currently shaping</span>
+                        <p class="currently-text">
+                            <span class="fitlane-logo-shadow">
+                                <a href="https://fitlane.app" target="_blank"
+                                    class="fitlane-logo-stroke fitlane-logo-text">Fitlane</a>
+                                <br>
+                                <a href="https://butterchickenstudios.com" target="_blank"
+                                    class="butterchicken-link">ButterChickenStudios</a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="bento-card bento-cta">
+                    <a href="mailto:kunal.s.yelne@gmail.com" class="say-hi-btn">
+                        <span>Say Hi</span>
+                        <i class="ph ph-arrow-up-right say-hi-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Column 3: Social 2x2 + Ring (row 3) -->
+            <div class="bento-social-row">
+                <div class="bento-social-grid">
+                    <a href="https://www.linkedin.com/in/kunalyelne" target="_blank"
+                        class="social-square social-linkedin">
+                        <i class="ph ph-linkedin-logo"></i>
+                    </a>
+                    <a href="https://github.com/kunalyelne" target="_blank" class="social-square social-github">
+                        <i class="ph ph-github-logo"></i>
+                    </a>
+                    <a href="https://x.com/kunalyelne" target="_blank" class="social-square social-x">
+                        <i class="ph ph-x-logo"></i>
+                    </a>
+                    <a href="https://medium.com/@kunal_yelne" target="_blank" class="social-square social-medium">
+                        <i class="ph ph-medium-logo"></i>
+                    </a>
+                </div>
+                <div class="scroll-indicator" id="scrollIndicator">
+                    <svg viewBox="0 0 100 100">
+                        <path id="textPath" d="M 50,50 m -40,0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0" fill="none" />
+                        <text>
+                            <textPath href="#textPath">
+                                SCROLL DOWN • CHECK OUT MY WORK •
+                            </textPath>
+                        </text>
+                    </svg>
+                    <i class="ph ph-arrow-down scroll-arrow"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section - Timeline -->
+    <section id="work" class="work-section">
+        <h2 class="section-title">Work Experience</h2>
+
+        <div class="timeline-container">
+            <!-- Timeline Line -->
+            <div class="timeline-line"></div>
+
+            <!-- Esper -->
+            <div class="timeline-item" data-year="2021-2025">
+                <div class="timeline-year">
+                    <span class="year-text">2025</span>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div class="company-info">
+                            <img src="assets/companies/esper.png" alt="Esper" class="company-logo">
+                            <h3 class="company-name"><a href="https://esper.io" target="_blank">Esper</a></h3>
+                        </div>
+                        <span class="duration">4+ years</span>
+                    </div>
+                    <p class="role">Senior Software Engineer</p>
+                    <ul class="achievements">
+                        <li>Architected <strong>Blueprints</strong> — IoT policy engine managing 80+ policy types across
+                            1M+ devices</li>
+                        <li>Built Device Policy Controller with <strong>99.9% uptime</strong> across 50+ OEMs</li>
+                        <li>Delivered cross-platform MDM solution supporting iOS devices</li>
+                        <li>Led quality initiative: 40% → <strong>95% test coverage</strong></li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">Go</span>
+                        <span class="tech-tag">Swift</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vyapar -->
+            <div class="timeline-item" data-year="2021">
+                <div class="timeline-year">
+                    <span class="year-text">2021</span>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div class="company-info">
+                            <img src="assets/companies/vyapar.png" alt="Vyapar" class="company-logo">
+                            <h3 class="company-name"><a href="https://vyaparapp.in" target="_blank">Vyapar</a></h3>
+                        </div>
+                        <span class="duration">3 months</span>
+                    </div>
+                    <p class="role">Software Development Engineer</p>
+                    <ul class="achievements">
+                        <li>Enhanced platform serving <strong>10M+ Indian SMEs</strong></li>
+                        <li>Built business analytics dashboard for cash flow management</li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Android</span>
+                        <span class="tech-tag">Kotlin</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Collegedunia -->
+            <div class="timeline-item" data-year="2020-2021">
+                <div class="timeline-year">
+                    <span class="year-text">2020</span>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div class="company-info">
+                            <img src="assets/companies/cd.png" alt="Collegedunia" class="company-logo">
+                            <h3 class="company-name"><a href="https://collegedunia.com" target="_blank">Collegedunia</a>
+                            </h3>
+                        </div>
+                        <span class="duration">1 year</span>
+                    </div>
+                    <p class="role">Android Developer</p>
+                    <ul class="achievements">
+                        <li>Built reusable news library for <strong>5M+ users</strong></li>
+                        <li>Improved app rating from <strong>3.2 → 4.1 stars</strong></li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Android</span>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Kotlin</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NPCIL -->
+            <div class="timeline-item" data-year="2019">
+                <div class="timeline-year">
+                    <span class="year-text">2019</span>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div class="company-info">
+                            <img src="assets/companies/npcil.png" alt="NPCIL" class="company-logo">
+                            <h3 class="company-name"><a href="https://npcil.nic.in" target="_blank">NPCIL, DAE, Govt. of
+                                    India</a></h3>
+                        </div>
+                        <span class="duration">8 months</span>
+                    </div>
+                    <p class="role">Software Development Intern</p>
+                    <ul class="achievements">
+                        <li>Built real-time safety monitoring for <strong>nuclear plant operations</strong></li>
+                    </ul>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Industrial Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Skills Combined Section -->
+    <section id="about-skills" class="about-skills-section">
+        <div class="about-skills-container">
+            <h2 class="section-title">
+                About Me & My Tech Arsenal
+            </h2>
+
+            <div class="content-grid">
+                <!-- About Content -->
+                <div class="about-column">
+                    <div class="about-card">
+                        <h3 class="card-title">
+                            <i class="ph ph-user"></i>
+                            Who Am I
+                        </h3>
+                        <p class="about-text">
+                            With <strong>6+ years</strong> of experience building mobile and backend systems,
+                            I've had the privilege of working on systems that serve <strong>millions of devices</strong>
+                            and impact real users every day.
+                        </p>
+                        <p class="about-text">
+                            From architecting <strong>enterprise MDM platforms</strong> managing 1M+ Android/iOS devices
+                            at Esper, to building accounting tools for 10M+ SMEs at Vyapar, I thrive on creating
+                            software that scales elegantly and solves real problems.
+                        </p>
+
+                        <div class="stats-row">
+                            <div class="stat-item">
+                                <i class="ph ph-calendar-check"></i>
+                                <span class="stat-number">6+</span>
+                                <span class="stat-text">Years</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="ph ph-devices"></i>
+                                <span class="stat-number">1M+</span>
+                                <span class="stat-text">Devices</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="ph ph-building"></i>
+                                <span class="stat-number">50+</span>
+                                <span class="stat-text">OEMs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="write-card">
+                        <h3 class="card-title">
+                            <i class="ph ph-pen-nib"></i>
+                            I Write
+                        </h3>
+                        <p class="write-text">
+                            When I'm not coding, you'll find me <strong>crafting stories</strong> about technology,
+                            sharing <strong>engineering insights</strong>, and exploring the <strong>art of
+                                problem-solving</strong>.
+                        </p>
+                        <div class="medium-cta">
+                            <a href="https://medium.com/@kunal_yelne" target="_blank" class="medium-link">
+                                <i class="ph ph-medium-logo"></i>
+                                Read My Articles
+                                <i class="ph ph-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Content -->
+                <div class="skills-column">
+                    <div class="skills-card">
+                        <h3 class="card-title">
+                            <i class="ph ph-rocket-launch"></i>
+                            Technical Arsenal
+                        </h3>
+                        <div class="skills-grid">
+                            <div class="skill-item skill-mobile">
+                                <div class="skill-icon">
+                                    <i class="ph ph-device-mobile"></i>
+                                </div>
+                                <div class="skill-content">
+                                    <h4>Mobile</h4>
+                                    <p>iOS (SwiftUI, UIKit), Android (Jetpack Compose), React Native</p>
+                                    <div class="skill-badges">
+                                        <span class="badge">Swift</span>
+                                        <span class="badge">Kotlin</span>
+                                        <span class="badge">RN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item skill-languages">
+                                <div class="skill-icon">
+                                    <i class="ph ph-code"></i>
+                                </div>
+                                <div class="skill-content">
+                                    <h4>Languages</h4>
+                                    <p>Go, Swift, Kotlin, Python, TypeScript, Java, C++</p>
+                                    <div class="skill-badges">
+                                        <span class="badge">Go</span>
+                                        <span class="badge">Python</span>
+                                        <span class="badge">TS</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item skill-cloud">
+                                <div class="skill-icon">
+                                    <i class="ph ph-cloud"></i>
+                                </div>
+                                <div class="skill-content">
+                                    <h4>Cloud & DevOps</h4>
+                                    <p>AWS, GCP, Docker, Kubernetes, Terraform, CI/CD</p>
+                                    <div class="skill-badges">
+                                        <span class="badge">AWS</span>
+                                        <span class="badge">Docker</span>
+                                        <span class="badge">K8s</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item skill-backend">
+                                <div class="skill-icon">
+                                    <i class="ph ph-database"></i>
+                                </div>
+                                <div class="skill-content">
+                                    <h4>Backend</h4>
+                                    <p>PostgreSQL, Redis, GraphQL, Microservices, RESTful APIs</p>
+                                    <div class="skill-badges">
+                                        <span class="badge">PostgreSQL</span>
+                                        <span class="badge">Redis</span>
+                                        <span class="badge">GraphQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/projects/bcs.png" alt="Butter Chicken Studios" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Software Studio</span>
+                        <h3><a href="https://butterchickenstudios.com" target="_blank">Butter Chicken Studios</a></h3>
+                        <p>Software development studio creating innovative solutions for various industries.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Mobile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/projects/fitlane.png" alt="Fitlane App" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Startup</span>
+                        <h3><a href="https://fitlane.app" target="_blank">Fitlane</a></h3>
+                        <p>AI-powered fitness platform built with <strong>SwiftUI</strong> and <strong>Go
+                                microservices</strong> for personalized workout experiences.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">SwiftUI</span>
+                            <span class="tech-tag">Go</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/projects/esper.png" alt="Esper" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Enterprise</span>
+                        <h3><a href="https://esper.io" target="_blank"></a>Enterprise MDM Platform</a></h3>
+                        <p>Device management system handling <strong>1M+ Android/iOS devices</strong> across 50+ OEMs
+                            with policy management and secure deployment.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Go</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Terraform</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/projects/face-pi.png" alt="Face Recognition System" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">AI/ML</span>
+                        <h3><a href="https://github.com/kunalyelne/Face-Recognition-using-Raspberry-Pi"
+                                target="_blank">Face Recognition System</a></h3>
+                        <p>Real-time face recognition system built with Raspberry Pi, implementing computer vision
+                            algorithms for security applications.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Raspberry Pi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 class="contact-title">Let's Build Something Together</h2>
+            <p class="contact-subtitle">I'm always open to discussing new opportunities and interesting projects.</p>
+            <a href="mailto:kunal.s.yelne@gmail.com" class="contact-cta">
+                Say Hi <i class="ph ph-arrow-up-right"></i>
+            </a>
+            <div class="contact-links">
+                <a href="mailto:kunal.s.yelne@gmail.com">kunal.s.yelne@gmail.com</a>
+                <span class="link-divider">•</span>
+                <a href="https://www.linkedin.com/in/kunalyelne" target="_blank">LinkedIn</a>
+                <span class="link-divider">•</span>
+                <a href="https://github.com/kunalyelne" target="_blank">GitHub</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p class="footer-quote">
+                <i class="ph ph-code"></i>
+                <span class="quote-text">"Code is poetry written in logic"</span>
+                <i class="ph ph-code"></i>
+            </p>
+
+            <div class="song-marquee">
+                <div class="marquee-content">
+                    <span class="song-item"><i class="ph ph-music-notes-simple"></i> Starboy - The Weeknd</span>
+                    <span class="song-item"><i class="ph ph-music-notes"></i> Levitating - Dua Lipa</span>
+                    <span class="song-item"><i class="ph ph-music-notes-simple"></i> Heat Waves - Glass Animals</span>
+                    <span class="song-item"><i class="ph ph-music-notes"></i> Blinding Lights - The Weeknd</span>
+                    <span class="song-item"><i class="ph ph-music-notes-simple"></i> End Of Beginning - Djo</span>
+                    <span class="song-item"><i class="ph ph-music-notes"></i> All The Stars - Kendrick Lamar, SZA</span>
+                </div>
+            </div>
+
+            <div class="footer-fun">
+                <p class="footer-fact">
+                    <i class="ph ph-sparkle"></i>
+                    <span> Fun fact: This portfolio was built while listening to <strong>above mentioned songs</strong>
+                        and drinking way too much coffee</span>
+                </p>
+            </div>
+            <p class="copyright">© 2026 <strong> Kunal Yelne </strong> | Crafted with <strong> <i
+                        class="ph ph-heart"></i> & <i class="ph ph-coffee"></i> </strong></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
